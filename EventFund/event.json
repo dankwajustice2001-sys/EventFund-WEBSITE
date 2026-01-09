@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "title": "Summer Music Festival 2024",
+            "category": "music",
+            "price": 199.99,
+            "date": "August 15-17, 2024",
+            "location": "Chicago, IL",
+            "description": "3-day festival with top artists",
+            "image": "music-festival.jpg",
+            "saved": 45000,
+            "goal": 75000
+        },
+        {
+            "id": 2,
+            "title": "NBA Finals Game 7",
+            "category": "sports",
+            "price": 450.00,
+            "date": "June 20, 2024",
+            "location": "Los Angeles, CA",
+            "description": "Championship deciding game",
+            "image": "nba-finals.jpg",
+            "saved": 12000,
+            "goal": 25000
+        }
+    ]
+}

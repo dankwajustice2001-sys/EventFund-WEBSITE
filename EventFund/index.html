@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventFund - Save for Tickets & Merchandise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">EventFund</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#events">Events</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#dashboard" class="dashboard-btn">My Dashboard</a>
+                <a href="#" class="login-btn">Sign In</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Save for the Experiences You Love</h1>
+            <p>Contribute towards tickets for concerts, sports games, merchandise, and exclusive events. Start with any amount!</p>
+            <a href="#events" class="cta-button">Browse Events</a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2>Explore Categories</h2>
+            <div class="category-grid">
+                <div class="category-card music">
+                    <i class="fas fa-music"></i>
+                    <h3>Music Concerts</h3>
+                    <p>Save for festivals, tours, live shows</p>
+                </div>
+                <div class="category-card sports">
+                    <i class="fas fa-football-ball"></i>
+                    <h3>Sports Events</h3>
+                    <p>Games, tournaments, championships</p>
+                </div>
+                <div class="category-card theater">
+                    <i class="fas fa-theater-masks"></i>
+                    <h3>Theater & Arts</h3>
+                    <p>Plays, exhibitions, cultural events</p>
+                </div>
+                <div class="category-card merch">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Merchandise</h3>
+                    <p>Official gear, collectibles, limited editions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Featured Events</h2>
+            <div id="events-container" class="events-grid">
+                <!-- Events will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Event</h3>
+                    <p>Browse and select any event, ticket, or merchandise</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Set Goal & Contribute</h3>
+                    <p>Set your savings goal and make contributions over time</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Track Progress</h3>
+                    <p>Watch your savings grow in your personal dashboard</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Redeem & Enjoy</h3>
+                    <p>When you reach your goal, redeem for tickets/merch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Modal (Hidden by default) -->
+    <div id="dashboard-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>My Savings Dashboard</h2>
+            <div class="dashboard-stats">
+                <div class="stat">
+                    <h3>Total Saved</h3>
+                    <p class="amount">$0.00</p>
+                </div>
+                <div class="stat">
+                    <h3>Active Goals</h3>
+                    <p class="count">0</p>
+                </div>
+            </div>
+            <div class="savings-goals">
+                <h3>My Savings Goals</h3>
+                <div id="goals-list">
+                    <p>No active goals yet. Browse events to start saving!</p>
+                </div>
+            </div>
+            <button class="add-funds-btn">Add Funds</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EventFund</h3>
+                    <p>Making events accessible through flexible saving plans.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#events">Events</a>
+                    <a href="#how-it-works">How It Works</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>support@eventfund.com</p>
+                    <p>1-800-EVENT-FUND</p>
+                </div>
+            </div>
+            <p class="copyright">© 2024 EventFund. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
